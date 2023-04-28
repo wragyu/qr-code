@@ -1,0 +1,23 @@
+import Image from 'next/image'
+
+export default function Home() {
+  return (
+    <main className="border-red-500 border-2 p-8">
+      qr Code
+      <div className="flex-auto w-144 border-red-500 border-2 p-8">
+
+        <Image
+          src="/image-qr-code.png"
+          alt='image-qr-code.png'
+          fill
+          className='rounded-full' />
+
+        <div className=''>
+          Improve your front-end skills by building projects
+        </div>
+
+
+      </div>
+    </main>
+  )
+}
